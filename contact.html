@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Martel Sans',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(165, 165, 235);
+    font-size: 1.05rem;
+    font-size: larger;
+}
+.left:hover{
+    color: white;
+    transition: 0.5s;
+    font-size: xx-large;
+}
+       .contactform{
+        font-family: 'Martel Sans',sans-serif;
+        padding: 0 34px;
+        padding-top: 40px;
+       }
+       .contactform h1{
+        font-family: 'Poppions',sans-serif;
+        padding: 12px 0;
+       }
+       .contactform form div{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+       }
+       .contactform form div input{
+        width: 26vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+       }
+       #emailHelp{
+        font-size: 11px;
+        color: white;
+        margin: 0 5px;
+        padding: 3px 0 0;
+       }
+       #form-check{
+         flex-direction: row;
+       }
+       #form-check input{
+        width: 24px;
+        margin: 3px 0;
+       }
+    .btn-sm{
+   font-size: 14px;
+   padding: 10px 19px;
+   margin: 12px 0;
+}
+@media  screen and (max-width:1400px){
+    body{
+        min-width: fit-content;
+    }
+    .firstsection{
+        flex-direction: column-reverse;
+    }
+    .secondsection .vertical{
+        height: unset;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .verticaltitle , .vertical-desc{
+        left: 45px;
+    }
+    .secondsection .box{
+        width: 50vw;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .leftsection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightsection{
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .rightsection img{
+        width: 45vw;
+        margin-bottom: 73px;
+    }
+    .secondsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 265vh;
+    }
+    .imagtop{
+        top: 133px;
+    }
+} 
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Arkadeep's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="https://github.com/ArkadeepChakraborty/Bharat-Intern-Netflix" target="_blank"">Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contactform">
+            <h1>Contact me for work/general Enquires</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Name</label>
+                      <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & phone no with anyone else.</div>
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone No</label>
+                      <input type="phone" class="form-control" id="clientphone">
+                      <div id="emailHelp" class="form-text">We'll never share your email & phone no with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Enquiry</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+        </div>
+</body>
+</html>

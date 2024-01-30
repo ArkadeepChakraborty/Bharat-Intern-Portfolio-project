@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(0,0,33);
+color: white;
+font-family: 'Martel Sans',sans-serif;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(18, 18, 62);
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: rgb(165, 165, 235);
+font-size: 1.05rem;
+font-size: larger;
+}
+main hr{
+border: 0;
+background: #9c97f1;
+height: 1.2px;
+margin: 60px 84px;
+}
+.left{
+font-size: 1.5rem;
+}
+.firstsection{
+display: flex;
+justify-content: space-around;
+margin: 120px 0;
+align-items: center;
+}
+.firstsection > div{
+width: 40%;
+}
+.leftsection{
+font-size: 3rem;
+}
+.button{
+margin-top: 34px;
+}
+.btn{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+}
+.btn:hover{
+color: dodgerblue;
+background-color: white;
+}
+.rightsection img{
+width: 40%;
+margin: 0 180px;
+}
+.purple{
+color: rgb(132, 7, 249);
+}
+.textgrey{
+color: grey;
+}
+#element{
+color: rgb(132, 7, 249);
+}
+.secondsection{
+max-width: 80vw;
+margin: auto;
+height: 80svh;
+}
+.secondsection h1{
+font-size: 1.9rem;
+}
+.secondsection .box{
+background: white;
+width: 80vw;
+height: 2px;
+margin: 56px 0;
+display: flex;
+}
+.secondsection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 6vw;
+}
+.imagtop{
+width: 23px;
+position: relative;
+top: -32px;
+left: -9px;
+}
+.verticaltitle{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 13px;
+}
+.vertical-desc{
+position: relative;
+top: 75px;
+color: gray;
+width: 150px;
+font-size: 9px;
+}
+.footer{
+background-color: #0e0e1a;
+}
+.footer{
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+}
+.footer ul{
+list-style: none;
+
+}
+.footer > div{
+width: 223px;
+}
+footer .footer-text-center{
+text-align: center;
+color: gray;
+padding: 12px 0;
+} 
+footer .one{
+text-align: center;
+padding: 12px 0;
+}
+footer .one a{
+text-decoration: none;
+color: white;
+}
+footer .one a:hover{
+color: rgb(165, 165, 235);
+font-size: 1.05rem;
+}
+footer ul li a:hover{
+color: rgb(165, 165, 235);
+font-size: 1.05rem;
+text-decoration: none;
+font-size: x-large;
+}
+footer ul li a{
+text-decoration: none;
+color: white;
+}
+footer .footer .first h1{
+font-family: 'Poppions',sans-serif;
+}
+.socialicons{
+display: flex;
+justify-content: center;
+}
+.socialicons a{
+text-decoration: none;
+padding: 10px;
+color: white;
+margin: 10px;
+}
+.socialicons a i{
+font-size: 2em;
+opacity: 0.9;
+}
+.socialicons a:hover{
+background-color: #111;
+transition: 0.5s;
+}
+.socialicons a:hover i{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+}
+.verticaltitle:hover{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+font-size: larger;
+}
+.vertical-desc:hover{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+font-size: x-small;
+}
+.textgrey:hover{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+font-size: larger;
+}
+.secondsection h1:hover{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+font-size: xx-large;
+}
+.footer h1:hover{
+color: rgb(9, 9, 181);
+transition: 0.5s;
+font-size: xx-large;
+}
+.left:hover{
+color: white;
+transition: 0.5s;
+font-size: xx-large;
+}
+@media  screen and (max-width:1400px){
+body{
+min-width: fit-content;
+}
+.firstsection{
+flex-direction: column-reverse;
+}
+.secondsection .vertical{
+height: unset;
+}
+.box{
+flex-direction: column;
+}
+.verticaltitle , .vertical-desc{
+left: 45px;
+}
+.secondsection .box{
+width: 50vw;
+}
+nav{
+flex-direction: column;
+}
+.leftsection{
+width: 100% !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.rightsection{
+width: 721px !important;
+display: flex;
+justify-content: center;
+}
+.rightsection img{
+width: 45vw;
+margin-bottom: 73px;
+}
+.secondsection{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 265vh;
+}
+.imagtop{
+top: 133px;
+}
+} 
