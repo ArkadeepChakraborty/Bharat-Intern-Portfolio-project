@@ -1,5 +1,4 @@
-# Portfolio
-🌐 Arkadeep’s Portfolio
+# 🌐 Arkadeep’s Portfolio
 
 Welcome to my personal portfolio website!
 This project showcases my skills, experience, education, and projects in a clean, modern, and responsive layout.
