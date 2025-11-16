@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arkadeep | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <img src="img/moon.png" id="icon" title="Toggle Theme">
+      <a class="navbar-brand" href="#">Arkadeep's Portfolio</a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="highlight">Arkadeep</span></h1>
+        <div>And I am a passionate</div>
+        <div class="typed-text"><span id="element"></span></div>
+        <p>I love building dynamic and visually appealing websites with clean and efficient code.</p>
+        <a href="https://drive.google.com/file/d/17Nvq8kBo0bUVyXZ4BCPfcFJ2UY9gPrWQ/view?usp=drive_link" target="_blank" class="btn btn-primary me-3">Download CV</a>
+        <a href="https://github.com/ArkadeepChakraborty" target="_blank" class="btn btn-outline-light">GitHub</a>
+      </div>
+
+      <div class="hero-img">
+        <img src="img/Myp1.jpg" alt="Profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2020-2022</div>
+          <div class="timeline-content">
+            <h4>C Programming</h4>
+            <p>Built strong programming logic and problem-solving skills using C language.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2021-2022</div>
+          <div class="timeline-content">
+            <h4>Web Development</h4>
+            <p>Created responsive websites using HTML, CSS, and Bootstrap.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2022+</div>
+          <div class="timeline-content">
+            <h4>Java Programming</h4>
+            <p>Explored object-oriented concepts and backend development with Java.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2023+</div>
+          <div class="timeline-content">
+            <h4>Full Stack Development using MERN</h4>
+            <p>Developed complete web apps using MongoDB, Express, React, and Node.js.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2025+</div>
+          <div class="timeline-content">
+            <h4>Development using PHP</h4>
+            <p>Building dynamic and database-driven websites using PHP and MySQL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education-timeline">
+        <div class="education-item">
+          <div class="dot"></div>
+          <div class="education-card">
+            <h3>B.Tech in Information Technology</h3>
+            <h4>Guru Nanak Institute of Technology</h4>
+            <p>2021 - 2025</p>
+            <p><strong>CGPA:</strong> 8.94</p>
+          </div>
+        </div>
+
+        <div class="education-item">
+          <div class="dot"></div>
+          <div class="education-card">
+            <h3>Higher Secondary (Science)</h3>
+            <h4>Sodepur High School</h4>
+            <p>2020 - 2021</p>
+            <p><strong>Percentage:</strong> 84.00%</p>
+          </div>
+        </div>
+
+        <div class="education-item">
+          <div class="dot"></div>
+          <div class="education-card">
+            <h3>Secondary Education</h3>
+            <h4>Sodepur High School</h4>
+            <p>2018 - 2019</p>
+            <p><strong>Percentage:</strong> 84.57%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="row mt-4">
+        <div class="col-md-4 project-card">
+          <img src="img/BloodDonation.jpg" class="img-fluid" alt="">
+          <h5>Blood Donation App</h5>
+          <p>Helps connect blood donors and seekers.</p>
+        </div>
+
+        <div class="col-md-4 project-card">
+          <img src="img/MovieTicket.jpg" class="img-fluid" alt="">
+          <h5> Online Movie Ticket Booking App</h5>
+          <p>MERN based online movie ticket booking system.</p>
+        </div>
+
+        <div class="col-md-4 project-card">
+          <img src="img/ITS.avif" class="img-fluid" alt="">
+          <h5>Intelligent Tutorial System (ITS)</h5>
+          <p>Designed responsive, modern online courses app.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="projects.html" class="btn btn-outline-light">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <!-- LEFT -->
+      <div class="footer-col">
+        <h2 class="footer-logo">Arkadeep's Portfolio</h2>
+        <p>
+          Love to built dynamic and visually appealing websites with clean and efficient code and solved real world
+          problems using programming languages.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- CENTER -->
+       <div class="center">
+      <div class="footer-col">
+        <h3>Topics</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="footer-col">
+        <h3>Get in Touch</h3>
+        <ul>
+          <li>📞 +91 9330308882</li>
+          <li>✉️ arkadeepchakra2003@gmail.com</li>
+          <li>📍 Agarpara, Kolkata, West Bengal, India</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#">Cookie Policy</a> | <a href="#">Privacy Policy</a>
+      </div>
+      <p>Copyright © www.arkadeepsportfolio.com | All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Typed.js Initialization -->
+  <script>
+    new Typed("#element", {
+      strings: ["Java", "Full Stack Development using MERN", "Frontend and Backend Development", "Web Development"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+
+  <!-- Theme Toggle -->
+  <script>
+    const icon = document.getElementById("icon");
+    icon.onclick = function () {
+      document.body.classList.toggle("dark_theme");
+      if (document.body.classList.contains("dark_theme")) {
+        icon.src = "img/sun.png";
+      } else {
+        icon.src = "img/moon.png";
+      }
+    };
+  </script>
+
+</body>
+
+</html>
